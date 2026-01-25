@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify</title>
+    <title>Spotify-web Player : Music for everyone</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
 </head>
+
 <body>
     <div class="container flex bg-black">
         <div class="left ">
@@ -18,12 +20,113 @@
                 </ul>
             </div>
             <div class="library bg-grey rounded m-1 p-1">
-                Your Library
+                <div class="heading">
+                    <img src="library.svg" alt="lib">
+                    <h2>Your Library</h2>
+                </div>
+                <div class="footer">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/">
+                            <span>Legal</span>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span>Safety &amp; Privacy Center</span>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                            <span>Privacy Policy</span>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                            <span>Cookies</span>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                            <span>About Ads</span>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">
+                            <span>Accessibility</span>
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <div class="right border">
+        <div class="right bg-grey rounded m-1 ">
+            <div class="header">
+                <div class="nav">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 4L7 12L15 20" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 4L17 12L9 20" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
 
+                </div>
+                <div class="button">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylist">
+                <h1>Spotify PlayList</h1>
+                <div class="cardContainer">
+                    <div class="card ">
+                        <div class="play">
+                            <svg width="50" height="50" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="60" cy="60" r="55" fill="#00C853" />
+
+                                <polygon points="50,40 85,60 50,80" fill="black" />
+                            </svg>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="eager"
+                            src="https://i.pinimg.com/1200x/ad/fe/b2/adfeb2d2f2f4d0819289e49c1fdcd0e9.jpg"
+                            alt="Aashiqui 2 - Album by Mithoon, Ankit Tiwari, Jeet Gannguli | Spotify"
+                            class="LBM25IAoFtd0wh7k3EGM PzkeRprwMqPpgrCKNMk8 PgTMmU2Gn7AESFMYhw4i">
+                        <h2>End of Beginning</h2>
+                        <p>You take the man out of the- </p>
+                    </div>
+                    
+                    <div class="card ">
+                        <div class="play">
+                            <svg width="50" height="50" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="60" cy="60" r="55" fill="#00C853" />
+
+                                <polygon points="50,40 85,60 50,80" fill="black" />
+                            </svg>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="eager"
+                            src="https://i.pinimg.com/1200x/ad/fe/b2/adfeb2d2f2f4d0819289e49c1fdcd0e9.jpg"
+                            alt="Aashiqui 2 - Album by Mithoon, Ankit Tiwari, Jeet Gannguli | Spotify"
+                            class="LBM25IAoFtd0wh7k3EGM PzkeRprwMqPpgrCKNMk8 PgTMmU2Gn7AESFMYhw4i">
+                        <h2>End of Beginning</h2>
+                        <p>You take the man out of the- </p>
+                    </div>
+
+                    
+
+                    
+
+                    
+                </div>
+            </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
+
 </html>

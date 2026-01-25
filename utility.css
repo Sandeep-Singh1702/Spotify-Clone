@@ -33,3 +33,27 @@
 .p-1{
     padding: 10px;
 }
+/* For Chrome, Edge, Safari */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;       /* Dark track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444;       /* Medium grey thumb */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #666;       /* Lighter on hover */
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #444 #111;
+}
+
