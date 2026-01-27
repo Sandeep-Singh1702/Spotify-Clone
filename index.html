@@ -7,11 +7,13 @@
     <title>Spotify-web Player : Music for everyone</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
 </head>
 
 <body>
     <div class="container flex bg-black">
-        <div class="left ">
+        <div class="left "> 
             <div class="home bg-grey rounded m-1 p-1">
                 <div class="logo"><img class="invert" src="logo.svg" alt="logo"></div>
                 <ul>
@@ -26,17 +28,7 @@
                 </div>
                 <div class="songlist">
                     <ul>
-                        <li>
-                            <img class="invert" src="Music.svg" alt="">
-                            <div class="info">
-                                <div>Song Name</div>
-                                <div>Song Artist </div>
-                            </div>
-                            <div class="playnow">   
-                                <span>Play Now</span>
-                                <img class="invert" src="PlayNow.svg" alt="" >
-                            </div>     
-                        </li>
+
                     </ul>
                 </div>
                 <div class="footer">
@@ -133,17 +125,24 @@
                     </div>   
                 </div>
                 <div class="playbar">
-                    <div class="songinfo">
+                    <div class="seekbar">
+                        <div class="circle">
 
+                        </div>
                     </div>
-                    <div class="songbuttons">
-                        <img src="previousSong.svg" alt="previous">
-                        <img src="play.svg" alt="plat">
-                        <img src="nextSong.svg" alt="next">
-                    </div>
-                    <div class="songTime">
+                    <div class="abovebar">
+                        <div class="songinfo">
 
-                    </div>
+                        </div>
+                        <div class="songbuttons">
+                            <img id="previous" src="previousSong.svg" alt="previous">
+                            <img id="play" src="PlayNow.svg" alt="plat">
+                            <img id="next" src="nextSong.svg" alt="next">
+                        </div>
+                        <div class="songTime">
+
+                        </div>
+                    </div>    
                 </div>
             </div>
         </div>
